@@ -1,5 +1,5 @@
 # Unsupervised Episode Generation for Graph Meta-learning
-The source code for Unsupervised Episode Generation for Graph Meta-learning (Neighbors as Queries, NaQ).
+The source code of the unsupervised episode generation method called **Neighbors as Queries (NaQ)** from the paper "[Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217)"
 
 ## Overview
 ### 1. NaQ-Feat
