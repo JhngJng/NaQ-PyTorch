@@ -17,11 +17,11 @@ NaQ-Diff generates query set by sampling structurally similar nodes found via [g
 <p align="center"><img width="700" src="./images/NaQ-Diff_Figure.png"></p>
 
 ## Abstract
-We investigate Unsupervised Episode Generation methods to solve Few-Shot Node-Classification (FSNC) task via Meta-learning without labels. Dominant meta-learning methodologies for FSNC were developed under the existence of _abundant_ labeled nodes from _diverse_ base classes for training, which however may not be possible to obtain in the real-world. Although a few studies tried to tackle the label-scarcity problem in graph meta-learning, they still rely on a few labeled nodes, which hinders the full utilization of the information of all nodes in a graph. 
-Despite the effectiveness of graph contrastive learning (GCL) methods in the FSNC task without using the label information, they mainly learn generic node embeddings without consideration of the downstream task to be solved, which may limit its performance in the FSNC task.
-To this end, we propose a simple yet effective _unsupervised_ episode generation method to benefit from the generalization ability of meta-learning for the FSNC task, while resolving the label-scarcity problem.
-Our proposed method, called Neighbors as Queries (NaQ), generates training episodes based on pre-calculated node-node similarity. Moreover, NaQ is model-agnostic; hence it can be used to train any existing supervised graph meta-learning methods in an unsupervised manner, while not sacrificing much of their performance or sometimes even improving them.
-Extensive experimental results demonstrate the potential of our unsupervised episode generation methods for graph meta-learning towards the FSNC task.
+We propose the Unsupervised Episode Generation method called **Neighbors as Queries (NaQ)** to solve the Few-Shot Node-Classification (FSNC) task via Meta-learning without label information. Doing so enables full utilization of the information of all nodes in a graph, which is not possible in current supervised meta-learning methods for FSNC due to the label-scarcity problem.
+In addition, unlike unsupervised Graph Contrastive Learning (GCL) methods that overlook the downstream task to be solved at the training phase resulting in vulnerability to class imbalance of a graph, we adopt the episodic learning framework that allows the model to be aware of the downstream task format, i.e., FSNC.
+The proposed NaQ is a simple but effective _unsupervised_ episode generation method that randomly samples nodes from a graph to make a support set, followed by similarity-based sampling of nodes to make the corresponding query set.
+Since NaQ is _model-agnostic_, any existing supervised graph meta-learning methods can be trained in an unsupervised manner, while not sacrificing much of their performance or sometimes even improving them.
+Extensive experimental results demonstrate the effectiveness of our proposed unsupervised episode generation method for graph meta-learning towards the FSNC task.
 
 ## How to check implementations?
 To check implementations of NaQ, please see task_generator.py method .query_generation_NaQ().
