@@ -8,6 +8,8 @@ The source code of the unsupervised episode generation method called **Neighbors
 </p>
 
 ## Overview
+By generating training episodes in an unsupervised manner, our NaQ enables **unsupervised Graoh Meta-learning** via unsupervised training of existing graph meta-learning methods.
+
 ### 1. NaQ-Feat
 NaQ-Feat generates query set by sampling raw-feature level similar nodes for each randomly sampled support set nodes in the entire graph.
 <p align="center"><img width="700" src="./images/NaQ-Feat_Figure.png"></p>
@@ -17,7 +19,8 @@ NaQ-Diff generates query set by sampling structurally similar nodes found via [g
 <p align="center"><img width="700" src="./images/NaQ-Diff_Figure.png"></p>
 
 ## Abstract
-We propose the Unsupervised Episode Generation method called **Neighbors as Queries (NaQ)** to solve the Few-Shot Node-Classification (FSNC) task via Meta-learning without label information. Doing so enables full utilization of the information of all nodes in a graph, which is not possible in current supervised meta-learning methods for FSNC due to the label-scarcity problem.
+We propose Unsupervised Episode Generation method called **Neighbors as Queries (NaQ)** to solve the Few-Shot Node-Classification (FSNC) task by _unsupervised Graph Meta-learning_.
+Doing so enables full utilization of the information of all nodes in a graph, which is not possible in current supervised meta-learning methods for FSNC due to the label-scarcity problem.
 In addition, unlike unsupervised Graph Contrastive Learning (GCL) methods that overlook the downstream task to be solved at the training phase resulting in vulnerability to class imbalance of a graph, we adopt the episodic learning framework that allows the model to be aware of the downstream task format, i.e., FSNC.
 The proposed NaQ is a simple but effective _unsupervised_ episode generation method that randomly samples nodes from a graph to make a support set, followed by similarity-based sampling of nodes to make the corresponding query set.
 Since NaQ is _model-agnostic_, any existing supervised graph meta-learning methods can be trained in an unsupervised manner, while not sacrificing much of their performance or sometimes even improving them.
