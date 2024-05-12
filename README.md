@@ -5,6 +5,8 @@ The source code of the unsupervised episode generation method called **Neighbors
 <p align="center">   
     <a href="https://pytorch.org/" alt="PyTorch">
       <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white" /></a>
+    <a href="https://icml.cc/" alt="Conference">
+        <img src="https://img.shields.io/badge/ICML'24-brightgreen" /></a>
 </p>
 
 ## Overview
