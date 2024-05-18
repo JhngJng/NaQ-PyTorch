@@ -10,7 +10,7 @@ The source code of the unsupervised episode generation method called **Neighbors
 </p>
 
 ## Overview
-By generating training episodes in an unsupervised manner, our NaQ enables **unsupervised Graoh Meta-learning** via unsupervised training of existing graph meta-learning methods.
+By generating training episodes in an unsupervised manner, our NaQ enables **unsupervised Graoh Meta-learning** via unsupervised training of existing graph meta-learning methods.  
 To check further details, please refer to the [slide](https://dsail.kaist.ac.kr/files/ICML24_NaQ_slide.pdf) or provided arXiv link (_the contents in the arXiv will be updated soon._)
 
 ### 1. NaQ-Feat
