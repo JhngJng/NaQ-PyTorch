@@ -1,6 +1,5 @@
-# Unsupervised Episode Generation for Graph Meta-learning
-The source code of the unsupervised episode generation method called **Neighbors as Queries (NaQ)** from the paper "[Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217)"  
-(_This paper will be presented in ICML 2024._)
+# [ICML'24] Unsupervised Episode Generation for Graph Meta-learning
+The source code of the unsupervised episode generation method called **Neighbors as Queries (NaQ)** from the paper "[Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217)".  
 
 <p align="center">   
     <a href="https://pytorch.org/" alt="PyTorch">
@@ -12,7 +11,7 @@ The source code of the unsupervised episode generation method called **Neighbors
 <p align="center"><img width="1000" src="./images/Poster_NaQ.png"></p>
 
 ## Overview
-By generating training episodes in an unsupervised manner, our NaQ enables **unsupervised Graoh Meta-learning** via unsupervised training of existing graph meta-learning methods.  
+By generating training episodes in an unsupervised manner, our NaQ enables **unsupervised Graph Meta-learning** via unsupervised training of existing graph meta-learning methods.  
 To check further details, please refer to the [slide](https://dsail.kaist.ac.kr/files/ICML24_NaQ_slide.pdf) or provided [arXiv link](https://arxiv.org/pdf/2306.15217).
 
 ### 1. NaQ-Feat
