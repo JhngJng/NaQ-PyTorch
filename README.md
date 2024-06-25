@@ -8,13 +8,12 @@ The source code of the unsupervised episode generation method called **Neighbors
         <img src="https://img.shields.io/badge/ICML'24-brightgreen" /></a>
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FYqX7bf99r4?si=CpX-BdxfVg_ylzUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 <p align="center"><img width="1000" src="./images/Poster_NaQ.png"></p>
 
 ## Overview
 By generating training episodes in an unsupervised manner, our NaQ enables **unsupervised Graph Meta-learning** via unsupervised training of existing graph meta-learning methods.  
-To check further details, please refer to the [slide](https://dsail.kaist.ac.kr/files/ICML24_NaQ_slide.pdf) or provided [arXiv link](https://arxiv.org/pdf/2306.15217).
+To check further details, please refer to the [slide](https://dsail.kaist.ac.kr/files/ICML24_NaQ_slide.pdf) or provided [arXiv link](https://arxiv.org/pdf/2306.15217).  
+Also, you may watch the official 5-minute short [video](https://www.youtube.com/watch?v=FYqX7bf99r4).
 
 ### 1. NaQ-Feat
 NaQ-Feat generates query set by sampling raw-feature level similar nodes for each randomly sampled support set nodes in the entire graph.
