@@ -8,6 +8,8 @@ The source code of the unsupervised episode generation method called **Neighbors
         <img src="https://img.shields.io/badge/ICML'24-brightgreen" /></a>
 </p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FYqX7bf99r4?si=CpX-BdxfVg_ylzUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <p align="center"><img width="1000" src="./images/Poster_NaQ.png"></p>
 
 ## Overview
